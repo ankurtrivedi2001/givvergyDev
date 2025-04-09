@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staff_Event_Type__c</fullName>
+    <label>Staff Event Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lunchtime Event</fullName>
+                <default>false</default>
+                <label>Lunchtime Event</label>
+            </value>
+            <value>
+                <fullName>Evening event</fullName>
+                <default>false</default>
+                <label>Evening event</label>
+            </value>
+            <value>
+                <fullName>Lunchtime &amp; evening event</fullName>
+                <default>false</default>
+                <label>Lunchtime &amp; evening event</label>
+            </value>
+            <value>
+                <fullName>Multi day event</fullName>
+                <default>false</default>
+                <label>Multi day event</label>
+            </value>
+            <value>
+                <fullName>Breakfast Event</fullName>
+                <default>false</default>
+                <label>Breakfast Event</label>
+            </value>
+            <value>
+                <fullName>Online - no event</fullName>
+                <default>false</default>
+                <label>Online - no event</label>
+            </value>
+            <value>
+                <fullName>Golf Event</fullName>
+                <default>false</default>
+                <label>Golf Event</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

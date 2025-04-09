@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ABA_sign_up__c</fullName>
+    <label>FE Consult Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Awaiting Client Call</fullName>
+                <default>false</default>
+                <label>Awaiting Client Call</label>
+            </value>
+            <value>
+                <fullName>Awaiting Client Feedback</fullName>
+                <default>false</default>
+                <label>Awaiting Client Feedback</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

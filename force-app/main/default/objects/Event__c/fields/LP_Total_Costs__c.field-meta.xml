@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LP_Total_Costs__c</fullName>
+    <formula>AV_Cost__c + LP_Internet_Costs__c + LP_Logistical_Costs__c + LP_Other_Costs__c + TM_Expenses__c + LP_TM_TS_Taxi__c +  TM_Wage_Complete_Service__c + LP_Cancellation_Charge__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LP - Total Costs</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

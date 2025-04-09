@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Status__c</fullName>
+    <label>Event Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Postponed</fullName>
+                <default>false</default>
+                <label>Postponed</label>
+            </value>
+            <value>
+                <fullName>Event Date TBC</fullName>
+                <default>false</default>
+                <label>Event Date TBC</label>
+            </value>
+            <value>
+                <fullName>Not Contacted</fullName>
+                <default>true</default>
+                <label>Not Contacted</label>
+            </value>
+            <value>
+                <fullName>Contacted</fullName>
+                <default>false</default>
+                <label>Intro Sent</label>
+            </value>
+            <value>
+                <fullName>Meeting Held</fullName>
+                <default>false</default>
+                <label>Consultation Meeting</label>
+            </value>
+            <value>
+                <fullName>Logistics Meeting</fullName>
+                <default>false</default>
+                <label>Logistics Meeting</label>
+            </value>
+            <value>
+                <fullName>Copy Check Ready</fullName>
+                <default>false</default>
+                <label>Copy Check Ready</label>
+            </value>
+            <value>
+                <fullName>Copy Check Complete</fullName>
+                <default>false</default>
+                <label>Copy Check Complete</label>
+            </value>
+            <value>
+                <fullName>Pre-event Launch</fullName>
+                <default>false</default>
+                <label>Pre-event Launch</label>
+            </value>
+            <value>
+                <fullName>Handover Call</fullName>
+                <default>false</default>
+                <label>Handover Call</label>
+            </value>
+            <value>
+                <fullName>Event Ready</fullName>
+                <default>false</default>
+                <label>Event Ready</label>
+            </value>
+            <value>
+                <fullName>Event Complete</fullName>
+                <default>false</default>
+                <label>Event Complete</label>
+            </value>
+            <value>
+                <fullName>Debrief Booked</fullName>
+                <default>false</default>
+                <label>Debrief</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

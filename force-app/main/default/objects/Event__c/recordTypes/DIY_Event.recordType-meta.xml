@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DIY_Event</fullName>
+    <active>false</active>
+    <description>Any Online Campaign</description>
+    <label>Online Campaign</label>
+    <picklistValues>
+        <picklist>ABA_sign_up__c</picklist>
+        <values>
+            <fullName>Awaiting Client Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Client Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AV_service__c</picklist>
+        <values>
+            <fullName>Givergy leaderboard %26 Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Givergy leaderboard only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Givergy leaderboard%2C Content %26 Sound</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AV_team_contacted__c</picklist>
+        <values>
+            <fullName>AV confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV contacted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CSM_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Collection_Method__c</picklist>
+        <values>
+            <fullName>Collect from Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collect from MEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collect from Venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collected by Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collected by MEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collected by TM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Consultation_Required__c</picklist>
+        <values>
+            <fullName>1-Hour Consultation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-Hour Consultation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Content_on_screen_UK_only__c</picklist>
+        <values>
+            <fullName>Givergy LB %26 Content %E2%80%93 sound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Givergy LB %26 Content - no sound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Givergy LB only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>AU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Delivery_method__c</picklist>
+        <values>
+            <fullName>Delivered by Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send to Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send to MEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send to Venue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Description__c</picklist>
+        <values>
+            <fullName>Annual Subscription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awards Dinners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drinks Reception</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gala Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hybrid Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ladies Lunch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Auction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pledge Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiz Night</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sporting Event%3A Testimonials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Balls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Gala</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Frequency__c</picklist>
+        <values>
+            <fullName>Annual Subscription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-annual event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One off event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown - Data Task</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Photos__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copy Check Ready</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debrief Booked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Ready</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting Held</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Contacted</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Postponed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Type__c</picklist>
+        <values>
+            <fullName>Givergy Unlimited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Givergy Virtual Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Site - App Tablet Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Site - Mobile Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium - Auction Items</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unlimited - Online Campaign</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Geographic_Region__c</picklist>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Australian Capital Territory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>British Columbia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Channel Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District of Columbia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hong Kong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>London</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manitoba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Brunswick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New South Wales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newfoundland and Labrador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Territory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northwest Territories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova Scotia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nunavut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Self Sign up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ontario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prince Edward Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quebec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queensland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saskatchewan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scotland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singapore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switzerland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tasmania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK%3A East Anglia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK%3A Home Counties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK%3A Midlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK%3A North East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK%3A North West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK%3A South East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK%3A South West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yukon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Givergy_Host1__c</picklist>
+        <values>
+            <fullName>Previous Event Without Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>With Givergy Host</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_did_you_hear_about_us__c</picklist>
+        <values>
+            <fullName>An event hosted by Givergy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Current Givergy Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-person event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing email from Givergy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online fundraising website %28hosted by Givergy%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OWR_Service__c</picklist>
+        <values>
+            <fullName>Complete service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete service %28Hybrid%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery %2F drop off only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kru SUPD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kru Scottish TM delivering event from Givergy lock up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kru TM drop off %2F pick up from OWR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No OWR required %28online or Pro%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Set up and packdown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Method__c</picklist>
+        <values>
+            <fullName>donor_tip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>platform_fees</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_status__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Postponement_Action2__c</picklist>
+        <values>
+            <fullName>Arranging new date - Q1 22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arranging new date - Q2 22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arranging new date - Q3 22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arranging new date - Q4 22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit being moved to Unlimited Subscription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEC put on hold and in contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales put on hold and in contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent deadline email Feb%2FMar 22</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Postponement_Action__c</picklist>
+        <values>
+            <fullName>Cancellation fee charged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancellation fee charged%2C free OA given</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No additional fee charged%2C final invoice due 4 weeks before new date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paying invoices on original date%2C free OA given</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paying invoices on original invoice dates</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pre_Launch_Event_System_Check__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - Booked</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>Calgary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Coast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Givergy Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hong Kong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>London</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sydney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toronto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vancouver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Coast</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Running_Online__c</picklist>
+        <values>
+            <fullName>Running Offline %E2%80%93 Local Server</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Running Online %E2%80%93 4G Kit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Running Online %E2%80%93 4G Kit with hardwire connection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Running Online %E2%80%93 Local Server with hardwire connection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Running Online %E2%80%93 Local server with venue Wi-Fi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Running Online %E2%80%93 SSID</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Self_Sign_Up__c</picklist>
+        <values>
+            <fullName>FALSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRUE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Server__c</picklist>
+        <values>
+            <fullName>CAL Cisco 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAL Cisco 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAL Local 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAL Local 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laptop Server</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laptop Server B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laptop Server with Wi-Fi in a box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Kit 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Kit 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Kit 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Kit 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Kit 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Kit 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server H</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server J</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOR Cisco 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOR Cisco 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOR Local 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOR Local 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOR Local 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOR Mobile 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOR Mobile 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAN Cisco 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAN Cisco 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAN Local 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAN Local 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Type__c</picklist>
+        <values>
+            <fullName>Givergy Remote Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Givergy Team On Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Setup__c</picklist>
+        <values>
+            <fullName>Live in-person and online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Staff_Event_Type__c</picklist>
+        <values>
+            <fullName>Breakfast event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evening event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunchtime %26 evening event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunchtime event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi day event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online - no event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Staffing_Status__c</picklist>
+        <values>
+            <fullName>Client confirmed timings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Timings Added</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timings amended</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>System_Set_Up__c</picklist>
+        <values>
+            <fullName>Tablet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tablet %26 Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website %26 Tablet - Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>System_features__c</picklist>
+        <values>
+            <fullName>Buy Now</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live Auction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Losing Bids Into Pledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prize Draw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sealed Bidding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silent Auction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ticketing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tablet_designs2__c</picklist>
+        <values>
+            <fullName>Client signed off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received from client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent to client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tablet_screensaver__c</picklist>
+        <values>
+            <fullName>Client declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received %26 uploaded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tablet_set_up__c</picklist>
+        <values>
+            <fullName>Guest search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table assigned and guest search</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tablet_type__c</picklist>
+        <values>
+            <fullName>Archos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kindle 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kindle 7 %28Scot%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kindle 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nexus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samsung S2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samsung Tab4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPad</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tax_Detail__c</picklist>
+        <values>
+            <fullName>13%25 HST %28ONT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%25 HST %28NB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%25 HST %28NF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%25 HST %28NS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%25 HST %28PEI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 GST %28ALB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 GST %28NVT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 GST %28NWT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 GST %28YUK%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 GST %2B 6%25 PST %28SASK%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 GST %2B 7%25 PST %28BC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 GST %2B 7%25 PST %28MAN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 GST %2B 9%2E975%25 QST %28QB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST %28AU%29 %40 0%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST %28AU%29 %40 10%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST %28AU%29 Exempt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST %28CA%29 %40 0%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST %28CA%29 Exempt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST %28NZ%29 %40 15%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Scope %28HK%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Scope %28US%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAT %40 0%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAT %40 20%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAT Exempt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timezone__c</picklist>
+        <values>
+            <fullName>%28GMT%2B00%3A00%29 Greenwich Mean Time %28Europe%2FDublin%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B00%3A00%29 Greenwich Mean Time %28Europe%2FLondon%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B00%3A00%29 Greenwich Mean Time %28GMT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B00%3A00%29 Western European Time %28Europe%2FLisbon%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B01%3A00%29 Central European Time %28Africa%2FAlgiers%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B01%3A00%29 Central European Time %28Europe%2FAmsterdam%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B01%3A00%29 Central European Time %28Europe%2FBerlin%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B01%3A00%29 Central European Time %28Europe%2FBrussels%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B01%3A00%29 Central European Time %28Europe%2FParis%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B01%3A00%29 Central European Time %28Europe%2FPrague%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B01%3A00%29 Central European Time %28Europe%2FRome%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B02%3A00%29 Eastern European Time %28Africa%2FCairo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B02%3A00%29 Eastern European Time %28Europe%2FAthens%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B02%3A00%29 Eastern European Time %28Europe%2FBucharest%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B02%3A00%29 Eastern European Time %28Europe%2FHelsinki%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B02%3A00%29 Eastern European Time %28Europe%2FIstanbul%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B02%3A00%29 Israel Standard Time %28Asia%2FJerusalem%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B02%3A00%29 South Africa Standard Time %28Africa%2FJohannesburg%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B03%3A00%29 Arabian Standard Time %28Asia%2FBaghdad%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B03%3A00%29 Arabian Standard Time %28Asia%2FKuwait%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B03%3A00%29 Arabian Standard Time %28Asia%2FRiyadh%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B03%3A00%29 East Africa Time %28Africa%2FNairobi%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B03%3A00%29 Further-eastern European Time %28Europe%2FMinsk%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B03%3A30%29 Iran Standard Time %28Asia%2FTehran%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B04%3A00%29 Georgia Time %28Asia%2FTbilisi%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B04%3A00%29 Gulf Standard Time %28Asia%2FDubai%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B04%3A00%29 Moscow Standard Time %28Europe%2FMoscow%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B04%3A30%29 Afghanistan Time %28Asia%2FKabul%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B05%3A00%29 Pakistan Time %28Asia%2FKarachi%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B05%3A00%29 Uzbekistan Time %28Asia%2FTashkent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B05%3A30%29 India Standard Time %28Asia%2FColombo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B05%3A30%29 India Standard Time %28Asia%2FKolkata%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B05%3A45%29 Nepal Time %28Asia%2FKathmandu%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B06%3A00%29 Bangladesh Time %28Asia%2FDhaka%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B06%3A00%29 Yekaterinburg Time %28Asia%2FYekaterinburg%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B06%3A30%29 Myanmar Time %28Asia%2FRangoon%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B07%3A00%29 Indochina Time %28Asia%2FBangkok%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B07%3A00%29 Indochina Time %28Asia%2FHo_Chi_Minh%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B07%3A00%29 Western Indonesia Time %28Asia%2FJakarta%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B08%3A00%29 Australian Western Standard Time %28Australia%2FPerth%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B08%3A00%29 China Standard Time %28Asia%2FShanghai%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B08%3A00%29 Hong Kong Time %28Asia%2FHong_Kong%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B08%3A00%29 Malaysia Time %28Asia%2FKuala_Lumpur%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B08%3A00%29 Philippine Time %28Asia%2FManila%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B08%3A00%29 Singapore Standard Time %28Asia%2FSingapore%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B08%3A00%29 Taipei Standard Time %28Asia%2FTaipei%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B09%3A00%29 Japan Standard Time %28Asia%2FTokyo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B09%3A00%29 Korean Standard Time %28Asia%2FSeoul%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B09%3A30%29 Australian Central Standard Time %28Australia%2FDarwin%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B10%3A00%29 Australian Eastern Standard Time %28Australia%2FSydney%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B10%3A30%29 Australian Central Daylight Time %28Australia%2FAdelaide%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B11%3A00%29 Australian Eastern Daylight Time %28Australia%2FSydney%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B11%3A00%29 Lord Howe Daylight Time %28Australia%2FLord_Howe%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B11%3A00%29 Solomon Islands Time %28Pacific%2FGuadalcanal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B11%3A30%29 Norfolk Islands Time %28Pacific%2FNorfolk%29*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B12%3A00%29 Magadan Time %28Asia%2FKamchatka%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B13%3A00%29 Fiji Summer Time %28Pacific%2FFiji%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B13%3A00%29 New Zealand Daylight Time %28Pacific%2FAuckland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B13%3A00%29 Phoenix Islands Time %28Pacific%2FEnderbury%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B13%3A00%29 Tonga Time %28Pacific%2FTongatapu%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B13%3A45%29 Chatham Daylight Time %28Pacific%2FChatham%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT%2B14%3A00%29 Line Islands Time %28Pacific%2FKiritimati%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-01%3A00%29 Cape Verde Time %28Atlantic%2FCape_Verde%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-02%3A00%29 Brasilia Summer Time %28America%2FSao_Paulo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-02%3A00%29 South Georgia Time %28Atlantic%2FSouth_Georgia%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-03%3A00%29 Argentina Time %28America%2FArgentina%2FBuenos_Aires%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-03%3A00%29 Chile Summer Time %28America%2FSantiago%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-03%3A30%29 Newfoundland Standard Time %28America%2FSt_Johns%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-04%3A00%29 Atlantic Standard Time %28America%2FHalifax%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-04%3A00%29 Atlantic Standard Time %28America%2FPuerto_Rico%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-04%3A00%29 Atlantic Standard Time %28Atlantic%2FBermuda%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-04%3A30%29 Venezuela Time %28America%2FCaracas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-05%3A00%29 Colombia Time %28America%2FBogota%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-05%3A00%29 Eastern Standard Time %28America%2FIndiana%2FIndianapolis%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-05%3A00%29 Eastern Standard Time %28America%2FNew_York%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-05%3A00%29 Eastern Standard Time %28America%2FPanama%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-05%3A00%29 Peru Time %28America%2FLima%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-06%3A00%29 Central Standard Time %28America%2FChicago%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-06%3A00%29 Central Standard Time %28America%2FEl_Salvador%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-06%3A00%29 Central Standard Time %28America%2FMexico_City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-07%3A00%29 Mountain Standard Time %28America%2FDenver%29****America%2FDenver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-07%3A00%29 Mountain Standard Time %28America%2FPhoenix%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-08%3A00%29 Pacific Standard Time %28America%2FLos_Angeles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-08%3A00%29 Pacific Standard Time %28America%2FTijuana%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-09%3A00%29 Alaska Standard Time %28America%2FAnchorage%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-10%3A00%29 Hawaii-Aleutian Standard Time %28Pacific%2FHonolulu%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-11%3A00%29 Niue Time %28Pacific%2FNiue%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28GMT-11%3A00%29 Samoa Standard Time %28Pacific%2FPago_Pago%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Website_Type__c</picklist>
+        <values>
+            <fullName>Online Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prize Draw Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Gala Dinner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Website_Update_Version__c</picklist>
+        <values>
+            <fullName>Moved to new version</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staying on old version</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

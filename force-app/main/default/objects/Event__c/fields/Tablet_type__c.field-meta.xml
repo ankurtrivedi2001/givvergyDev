@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tablet_type__c</fullName>
+    <description>Type of tablets provided to guests with the Givergy app</description>
+    <inlineHelpText>Type of tablets provided to guests with the Givergy app</inlineHelpText>
+    <label>Givergy app tablet type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Kindle 8</fullName>
+                <default>false</default>
+                <label>Kindle 8</label>
+            </value>
+            <value>
+                <fullName>Kindle 7</fullName>
+                <default>false</default>
+                <label>Kindle 7</label>
+            </value>
+            <value>
+                <fullName>Kindle 7 (NEW)</fullName>
+                <default>false</default>
+                <label>Kindle 7 (Mini)</label>
+            </value>
+            <value>
+                <fullName>Kindle 7 (Scot)</fullName>
+                <default>false</default>
+                <label>Kindle 7 (Scot)</label>
+            </value>
+            <value>
+                <fullName>Kindle 7 2nd Gen</fullName>
+                <default>false</default>
+                <label>Kindle 7 2nd Gen</label>
+            </value>
+            <value>
+                <fullName>iPad</fullName>
+                <default>false</default>
+                <label>iPad</label>
+            </value>
+            <value>
+                <fullName>Archos</fullName>
+                <default>false</default>
+                <label>Archos</label>
+            </value>
+            <value>
+                <fullName>Nexus</fullName>
+                <default>false</default>
+                <label>Nexus</label>
+            </value>
+            <value>
+                <fullName>Samsung S2</fullName>
+                <default>false</default>
+                <label>Samsung S2</label>
+            </value>
+            <value>
+                <fullName>Samsung Tab4</fullName>
+                <default>false</default>
+                <label>Samsung Tab 4</label>
+            </value>
+            <value>
+                <fullName>Kindle 7 Old</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kindle 7 Old</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

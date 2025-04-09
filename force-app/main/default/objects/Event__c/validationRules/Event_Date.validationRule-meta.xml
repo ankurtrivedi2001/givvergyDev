@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISBLANK(Event_Date_New__c),
+  (
+    OR(
+      ISPICKVAL( Event_Type__c , &quot;Managed - Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Managed - Event With Auction Items&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Givergy Pro - Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Givergy Pro - Event With Auction Items&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Virtual - Online Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Virtual - Online Event With Auction Item&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Unlimited Add On&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Unlimited Add On - Pro Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Other&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Managed Lots&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Pro Lots&quot;),
+      ISPICKVAL( Event_Type__c , &quot;DIY Lots&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Unlimited Add On - Virtual Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;On Site – App Tablet Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;On Site – Mobile Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Givergy Virtual Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Premium - Auction Items&quot;)
+    )
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Event_Date_New__c</errorDisplayField>
+    <errorMessage>Please enter event date</errorMessage>
+</ValidationRule>

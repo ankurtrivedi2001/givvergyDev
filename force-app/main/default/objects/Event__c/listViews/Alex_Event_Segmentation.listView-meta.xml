@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alex_Event_Segmentation</fullName>
+    <columns>Event_Date__c</columns>
+    <columns>Client__c</columns>
+    <columns>NAME</columns>
+    <columns>Auction_items__c</columns>
+    <columns>Type__c</columns>
+    <columns>Event_Description__c</columns>
+    <columns>Event_Frequency__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sales_Manager__c</field>
+        <operation>notContain</operation>
+        <value>alex,rory,john,lizzy,lily,leo,hugo</value>
+    </filters>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>4/1/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Event_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Cancelled</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>UK</value>
+    </filters>
+    <label>Remaining  Event Segmentation</label>
+</ListView>

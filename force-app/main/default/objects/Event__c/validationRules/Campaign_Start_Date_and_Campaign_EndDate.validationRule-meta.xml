@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Start_Date_and_Campaign_EndDate</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+    ISBLANK(Event_Start_Date__c),
+  (
+
+    OR(
+
+      ISPICKVAL( Event_Type__c , &quot;Managed - Website&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Managed - Website With Auction Items&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Pro - Online Campaign&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Pro - Online Campaign With Auction Items&quot;),
+      ISPICKVAL( Event_Type__c , &quot;DIY - Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;DIY - Event With Auction Items&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Unlimited Add On - Online Campaign&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Online Campaign&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Subscription - Online Campaign&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Unlimited - Online Campaign&quot;)
+    )
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Event_Start_Date__c</errorDisplayField>
+    <errorMessage>Please enter campaign start date and end date.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Server__c</fullName>
+    <label>Server</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Server A</fullName>
+                <default>false</default>
+                <label>Laptop Server A</label>
+            </value>
+            <value>
+                <fullName>Laptop Server B</fullName>
+                <default>false</default>
+                <label>Laptop Server B</label>
+            </value>
+            <value>
+                <fullName>Server C</fullName>
+                <default>false</default>
+                <label>Laptop Server C</label>
+            </value>
+            <value>
+                <fullName>Server D</fullName>
+                <default>false</default>
+                <label>Laptop Server D</label>
+            </value>
+            <value>
+                <fullName>Server E</fullName>
+                <default>false</default>
+                <label>Laptop Server E</label>
+            </value>
+            <value>
+                <fullName>Server F</fullName>
+                <default>false</default>
+                <label>Laptop Server F</label>
+            </value>
+            <value>
+                <fullName>Laptop Server G</fullName>
+                <default>false</default>
+                <label>Laptop Server G</label>
+            </value>
+            <value>
+                <fullName>Server B</fullName>
+                <default>false</default>
+                <label>Server B</label>
+            </value>
+            <value>
+                <fullName>Server H</fullName>
+                <default>false</default>
+                <label>Server H</label>
+            </value>
+            <value>
+                <fullName>Server I</fullName>
+                <default>false</default>
+                <label>Server I</label>
+            </value>
+            <value>
+                <fullName>Server J</fullName>
+                <default>false</default>
+                <label>Server J</label>
+            </value>
+            <value>
+                <fullName>Server K</fullName>
+                <default>false</default>
+                <label>Server K</label>
+            </value>
+            <value>
+                <fullName>Server L</fullName>
+                <default>false</default>
+                <label>Server L</label>
+            </value>
+            <value>
+                <fullName>CAL Local 1</fullName>
+                <default>false</default>
+                <label>CAL Local 1</label>
+            </value>
+            <value>
+                <fullName>CAL Local 2</fullName>
+                <default>false</default>
+                <label>CAL Local 2</label>
+            </value>
+            <value>
+                <fullName>VAN Local 1</fullName>
+                <default>false</default>
+                <label>VAN Local 1</label>
+            </value>
+            <value>
+                <fullName>VAN Local 2</fullName>
+                <default>false</default>
+                <label>VAN Local 2</label>
+            </value>
+            <value>
+                <fullName>TOR Local 1</fullName>
+                <default>false</default>
+                <label>TOR Local 1</label>
+            </value>
+            <value>
+                <fullName>TOR Local 2</fullName>
+                <default>false</default>
+                <label>TOR Local 2</label>
+            </value>
+            <value>
+                <fullName>TOR Local 3</fullName>
+                <default>false</default>
+                <label>TOR Local 3</label>
+            </value>
+            <value>
+                <fullName>Mobile Kit 1</fullName>
+                <default>false</default>
+                <label>Mobile Kit 1</label>
+            </value>
+            <value>
+                <fullName>Mobile Kit 2</fullName>
+                <default>false</default>
+                <label>Mobile Kit 2</label>
+            </value>
+            <value>
+                <fullName>Mobile Kit 3</fullName>
+                <default>false</default>
+                <label>Mobile Kit 3</label>
+            </value>
+            <value>
+                <fullName>Mobile Kit 4</fullName>
+                <default>false</default>
+                <label>Mobile Kit 4</label>
+            </value>
+            <value>
+                <fullName>Mobile Kit 5</fullName>
+                <default>false</default>
+                <label>Mobile Kit 5</label>
+            </value>
+            <value>
+                <fullName>Mobile Kit 6</fullName>
+                <default>false</default>
+                <label>Mobile Kit 6</label>
+            </value>
+            <value>
+                <fullName>TOR Mobile 1</fullName>
+                <default>false</default>
+                <label>TOR Mobile 1</label>
+            </value>
+            <value>
+                <fullName>TOR Mobile 2</fullName>
+                <default>false</default>
+                <label>TOR Mobile 2</label>
+            </value>
+            <value>
+                <fullName>TOR Cisco 1</fullName>
+                <default>false</default>
+                <label>TOR Cisco 1</label>
+            </value>
+            <value>
+                <fullName>TOR Cisco 2</fullName>
+                <default>false</default>
+                <label>TOR Cisco 2</label>
+            </value>
+            <value>
+                <fullName>VAN Cisco 1</fullName>
+                <default>false</default>
+                <label>VAN Cisco 1</label>
+            </value>
+            <value>
+                <fullName>VAN Cisco 2</fullName>
+                <default>false</default>
+                <label>VAN Cisco 2</label>
+            </value>
+            <value>
+                <fullName>CAL Cisco 1</fullName>
+                <default>false</default>
+                <label>CAL Cisco 1</label>
+            </value>
+            <value>
+                <fullName>CAL Cisco 2</fullName>
+                <default>false</default>
+                <label>CAL Cisco 2</label>
+            </value>
+            <value>
+                <fullName>Laptop Server</fullName>
+                <default>false</default>
+                <label>Laptop Server</label>
+            </value>
+            <value>
+                <fullName>Laptop Server with Wi-Fi in a box</fullName>
+                <default>false</default>
+                <label>Laptop Server with Wi-Fi in a box</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

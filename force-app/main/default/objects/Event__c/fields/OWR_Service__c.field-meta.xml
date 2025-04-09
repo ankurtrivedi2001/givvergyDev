@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OWR_Service__c</fullName>
+    <label>OWR Service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delivery / drop off only</fullName>
+                <default>false</default>
+                <label>Drop off / Collection</label>
+            </value>
+            <value>
+                <fullName>Set up and packdown</fullName>
+                <default>false</default>
+                <label>Set up and packdown</label>
+            </value>
+            <value>
+                <fullName>Complete service</fullName>
+                <default>false</default>
+                <label>Complete service</label>
+            </value>
+            <value>
+                <fullName>Complete service (Hybrid)</fullName>
+                <default>false</default>
+                <label>Complete service (Hybrid)</label>
+            </value>
+            <value>
+                <fullName>Kru TM drop off / pick up from OWR</fullName>
+                <default>false</default>
+                <label>Kru TM dropping off &amp; picking up from OWR</label>
+            </value>
+            <value>
+                <fullName>Kru SUPD</fullName>
+                <default>false</default>
+                <label>Kru SUPD</label>
+            </value>
+            <value>
+                <fullName>Kru Scottish TM delivering event from Givergy lock up</fullName>
+                <default>false</default>
+                <label>Kru Scottish TM delivering event from Givergy lock up</label>
+            </value>
+            <value>
+                <fullName>No OWR required (online or Pro)</fullName>
+                <default>false</default>
+                <label>No OWR required (online or Pro)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

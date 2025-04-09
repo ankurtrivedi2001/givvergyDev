@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hannie_Check</fullName>
+    <columns>Campaign_number__c</columns>
+    <columns>Event_Date__c</columns>
+    <columns>Client__c</columns>
+    <columns>NAME</columns>
+    <columns>Sales_Manager__c</columns>
+    <columns>Number_of_Staff_Required__c</columns>
+    <columns>Tech_Manager__c</columns>
+    <columns>Event_Manager__c</columns>
+    <columns>Event_Support__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>10/15/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Event_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Cancelled</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>UK</value>
+    </filters>
+    <filters>
+        <field>Event_Type__c</field>
+        <operation>equals</operation>
+        <value>Managed - Event,Managed - Event With Auction Items,Managed - Website,Managed - Website With Auction Items</value>
+    </filters>
+    <filters>
+        <field>Number_of_Staff_Required__c</field>
+        <operation>lessThan</operation>
+        <value>1</value>
+    </filters>
+    <label>Hannie Check</label>
+</ListView>

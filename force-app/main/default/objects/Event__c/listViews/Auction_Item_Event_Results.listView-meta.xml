@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auction_Item_Event_Results</fullName>
+    <columns>Country_Region__c</columns>
+    <columns>Event_Date__c</columns>
+    <columns>Client__c</columns>
+    <columns>NAME</columns>
+    <columns>Event_results_silent_sold__c</columns>
+    <columns>Event_results_live_sold__c</columns>
+    <columns>Event_results_revenue__c</columns>
+    <columns>Event_results_supplier_costs__c</columns>
+    <columns>Event_results_charity_profit__c</columns>
+    <columns>Event_results_total_raised__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>9/30/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Auction_items__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>UK,US,CA,AU,HK</value>
+    </filters>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>lessOrEqual</operation>
+        <value>12/31/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Event_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Cancelled,Postponed</value>
+    </filters>
+    <label>Auction Item Event Results</label>
+</ListView>

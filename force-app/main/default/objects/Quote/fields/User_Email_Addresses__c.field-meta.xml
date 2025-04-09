@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Email_Addresses__c</fullName>
+    <description>Email address for each user with CMS access; by default each account includes 3 users</description>
+    <inlineHelpText>Email address for each user with CMS access; by default each account includes 3 users</inlineHelpText>
+    <label>User Email Addresses</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

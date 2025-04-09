@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Quote_Guest_Numbers__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+RecordType.DeveloperName = &apos;Event&apos;,
+ISBLANK(Guests__c)),
+0,
+1
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Event Quote Guest Numbers</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

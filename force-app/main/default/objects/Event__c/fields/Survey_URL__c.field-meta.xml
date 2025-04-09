@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    OR(
+        TEXT(Event_Type__c)=&quot;DIY - Event&quot;,
+        TEXT(Event_Type__c)=&quot;Virtual - Online Event&quot;,
+        TEXT(Event_Type__c)=&quot;Virtual - Online Event With Auction Item&quot;,
+        TEXT(Event_Type__c)=&quot;Managed - Website&quot;,
+        TEXT(Event_Type__c)=&quot;Managed - Website With Auction Items&quot;,
+        TEXT(Event_Type__c)=&quot;Pro - Online Campaign&quot;,
+        TEXT(Event_Type__c)=&quot;Pro - Online Campaign With Auction Items&quot;,
+        TEXT(Event_Type__c)=&quot;DIY - Event With Auction Items&quot;,
+
+        TEXT(Event_Type__c)=&quot;Givergy Virtual - Online Event&quot;,
+        TEXT(Event_Type__c)=&quot;Givergy Virtual - Online Event with Auction Items&quot;,
+        TEXT(Event_Type__c)=&quot;Premium - Online Campaign&quot;,
+        TEXT(Event_Type__c)=&quot;Premium - Online Campaign with Auction Items&quot;,
+        TEXT(Event_Type__c)=&quot;Pro - Online Campaign&quot;,
+        TEXT(Event_Type__c)=&quot;Pro - Online Campaign with Auction Items&quot;,
+        TEXT(Event_Type__c)=&quot;Pro - Annual Subscription&quot;
+    ),
+
+    HYPERLINK(&quot;https://givergy.getfeedback.com/r/kVMbuYL1? Event__c=&quot;&amp;Id&amp;&quot;&amp;Contact__c=&quot;&amp;Primary_Contact__c&amp;&quot;&amp;gf_q[6300060][12937540]=&quot;&amp;Full_Name__c&amp;&quot;&amp;gf_q[6300060][12937541]=&quot;&amp;Client__r.Name&amp;&quot;&amp;gf_q[6300060][12937542]=&quot;&amp;Primary_Contact__r.Title&amp;&quot;&amp;gf_q[6300060][12937543]=&quot;&amp;Name&amp;&quot;&amp;gf_q[6300060][12937544]=&quot;&amp;Venue__r.Name&amp;&quot;&amp;gf_q[6300060][12937545]=&quot;&amp;TEXT(DATEVALUE(Event_Date__c))&amp;&quot;&amp;gf_q[6300060][12938910]=&quot;&amp; Account_manager__r.FirstName&amp;&quot;&amp;gf_q[6300060][12938911]=&quot;&amp;Campaign_number__c&amp;&quot;&amp;gf_q[6300060][13541649]=&quot;&amp;TEXT(Country__c), &quot;Please click here to complete the survey&quot;,&apos;_self&apos;),
+
+    HYPERLINK(&quot;https://givergy.getfeedback.com/r/nE0j0m0E?Event__c=&quot;&amp;Id&amp;&quot;&amp;Contact__c=&quot;&amp;Primary_Contact__c&amp;&quot;&amp;gf_q[6296409][12930732]=&quot;&amp;Full_Name__c&amp;&quot;&amp;gf_q[6296409][12930733]=&quot;&amp;Client__r.Name&amp;&quot;&amp;gf_q[6296409][12930734]=&quot;&amp;Primary_Contact__r.Title&amp;&quot;&amp;gf_q[6296409][12930736]=&quot;&amp;Name&amp;&quot;&amp;gf_q[6296409][12930737]=&quot;&amp;Venue__r.Name&amp;&quot;&amp;gf_q[6296409][12930848]=&quot;&amp;TEXT(DATEVALUE(Event_Date__c))&amp;&quot;&amp;gf_q[6296409][25342468]=&quot;&amp;Account_manager__r.FirstName&amp;&quot; &quot;&amp;Account_manager__r.LastName&amp;&quot;&amp;gf_q[6296409][25342469]=&quot;&amp;Campaign_number__c&amp;&quot;&amp;gf_q[6296409][13541627]=&quot;&amp;TEXT(Country__c),&quot;Please click here to complete the survey&quot;,&apos;_self&apos;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Survey URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collection_Method__c</fullName>
+    <label>Collection method*</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Collect from Venue</fullName>
+                <default>false</default>
+                <label>Collect from Venue</label>
+            </value>
+            <value>
+                <fullName>Collect from Client</fullName>
+                <default>false</default>
+                <label>Collect from Client</label>
+            </value>
+            <value>
+                <fullName>Collect from MEM</fullName>
+                <default>false</default>
+                <label>Collect from MEM</label>
+            </value>
+            <value>
+                <fullName>Collected by Driver</fullName>
+                <default>false</default>
+                <label>Collected by Driver</label>
+            </value>
+            <value>
+                <fullName>Collected by TM</fullName>
+                <default>false</default>
+                <label>Collected by TM</label>
+            </value>
+            <value>
+                <fullName>Collected by MEM</fullName>
+                <default>false</default>
+                <label>Collected by MEM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

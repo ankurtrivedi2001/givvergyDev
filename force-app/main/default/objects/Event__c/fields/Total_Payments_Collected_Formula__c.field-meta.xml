@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Payments_Collected_Formula__c</fullName>
+    <formula>Auction_collected_by_Givergy__c + Buy_Now_collected_by_Givergy__c + Total_Raffle_Collected_by_Givergy__c + Pledge_collected_by_Givergy__c + Ticketing_collected_by_Givergy__c + Prize_draw_collected_by_Givergy__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Payments Collected (Formula)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

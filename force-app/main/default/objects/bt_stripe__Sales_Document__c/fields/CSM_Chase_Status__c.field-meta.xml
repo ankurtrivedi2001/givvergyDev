@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSM_Chase_Status__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <label>CSM Chase Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>7-day overdue email sent</fullName>
+                <default>false</default>
+                <label>7-day overdue email sent</label>
+            </value>
+            <value>
+                <fullName>14-day overdue email sent</fullName>
+                <default>false</default>
+                <label>14-day overdue email sent</label>
+            </value>
+            <value>
+                <fullName>Account revoked &amp; escalated</fullName>
+                <default>false</default>
+                <label>Account revoked &amp; escalated</label>
+            </value>
+            <value>
+                <fullName>CSM not to chase, with finance</fullName>
+                <default>false</default>
+                <label>CSM not to chase, with finance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

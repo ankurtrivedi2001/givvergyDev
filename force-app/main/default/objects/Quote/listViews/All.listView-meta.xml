@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>QUOTE.NAME</columns>
+    <columns>QUOTE.RECORDTYPE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>QUOTE.ISSYNCING</columns>
+    <columns>QUOTE.EXPIRATIONDATE</columns>
+    <columns>QUOTE.SUBTOTAL</columns>
+    <columns>QUOTE.TOTALPRICE</columns>
+    <columns>Accepted_Date_Time__c</columns>
+    <columns>Givergy_Live_Auction_Items__c</columns>
+    <columns>Givergy_Silent_Auction_Items__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Commission_Based_Event__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All Quotes</label>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remote_Support_Required__c</fullName>
+    <label>Remote Support Required</label>
+    <summarizedField>QuoteLineItem.Quantity</summarizedField>
+    <summaryFilterItems>
+        <field>QuoteLineItem.Product_Category__c</field>
+        <operation>equals</operation>
+        <value>Remote Staff</value>
+    </summaryFilterItems>
+    <summaryForeignKey>QuoteLineItem.QuoteId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

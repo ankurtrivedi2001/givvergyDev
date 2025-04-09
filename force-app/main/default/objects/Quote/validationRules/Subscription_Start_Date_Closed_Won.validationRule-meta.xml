@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscription_Start_Date_Closed_Won</fullName>
+    <active>false</active>
+    <description>Once an unlimited quote is moved to Closed Won, the Subscription Start Date can&apos;t be edited by users. System Admins can edit this field.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status, &quot;Closed Won&quot;),
+    ISCHANGED(Subscription_Start_Date__c),
+    NOT(
+        CONTAINS(
+            &quot;Administrator&quot;,
+            $Profile.Name
+        )
+    ),
+    RecordType.DeveloperName = &quot;Unlimited&quot;
+)</errorConditionFormula>
+    <errorMessage>Once quote is Closed Won, the Subscription Start Date can&apos;t be edited. Please contact your Salesforce System Administrator for further assistance in updating this field.</errorMessage>
+</ValidationRule>

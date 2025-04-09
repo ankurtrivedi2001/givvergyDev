@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Postponement_Action__c</fullName>
+    <label>Postponement Action</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No additional fee charged, final invoice due 4 weeks before new date</fullName>
+                <default>false</default>
+                <label>No additional fee charged, final invoice due 4 weeks before new date</label>
+            </value>
+            <value>
+                <fullName>Cancellation fee charged</fullName>
+                <default>false</default>
+                <label>Cancellation fee charged</label>
+            </value>
+            <value>
+                <fullName>Cancellation fee charged, free OA given</fullName>
+                <default>false</default>
+                <label>Cancellation fee charged, free OA given</label>
+            </value>
+            <value>
+                <fullName>Paying invoices on original invoice dates</fullName>
+                <default>false</default>
+                <label>Paying invoices on original invoice dates</label>
+            </value>
+            <value>
+                <fullName>Paying invoices on original date, free OA given</fullName>
+                <default>false</default>
+                <label>Paying invoices on original date, free OA given</label>
+            </value>
+            <value>
+                <fullName>High item event no tech fee charged</fullName>
+                <default>false</default>
+                <label>High item event no tech fee charged</label>
+            </value>
+            <value>
+                <fullName>Switched to Givergy Virtual - No extra charge</fullName>
+                <default>false</default>
+                <label>Switched to Givergy Virtual - No extra charge</label>
+            </value>
+            <value>
+                <fullName>Switched to Givergy Virtual - Charged additional fee</fullName>
+                <default>false</default>
+                <label>Switched to Givergy Virtual - Charged additional fee</label>
+            </value>
+            <value>
+                <fullName>Switched to Premium Website - Final invoice credited</fullName>
+                <default>false</default>
+                <label>Switched to Premium Website - Final invoice credited</label>
+            </value>
+            <value>
+                <fullName>Switched to Premium Website - Charge same amount</fullName>
+                <default>false</default>
+                <label>Switched to Premium Website - Charge same amount</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

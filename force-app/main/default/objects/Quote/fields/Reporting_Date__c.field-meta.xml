@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Date__c</fullName>
+    <formula>IF(
+				AND(
+								RecordType.DeveloperName = &apos;Event&apos;,
+								ISPICKVAL( Event_Type__c , &quot;Online Campaign&quot;)
+								),
+				  DATEVALUE(Campaign_End_Date_Time__c),
+				IF(
+        OR(
+            ISPICKVAL( Event_Type__c , &quot;Givergy Unlimited&quot;),
+            ISPICKVAL( Event_Type__c , &quot;Premium - Annual Subscription&quot;)
+            ),
+        Subscription_Start_Date__c,
+        Event_Date__c
+						)
+)
+
+/*IF(
+OR(
+ISPICKVAL( Event_Type__c , &quot;Givergy Unlimited&quot;),
+ISPICKVAL( Event_Type__c , &quot;Premium - Annual Subscription&quot;)
+),
+Subscription_Start_Date__c,
+Event_Date__c
+)*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Reporting Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

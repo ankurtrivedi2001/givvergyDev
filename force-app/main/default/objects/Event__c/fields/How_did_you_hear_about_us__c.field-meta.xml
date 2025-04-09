@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_us__c</fullName>
+    <label>How did you hear about us</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Google search</fullName>
+                <default>false</default>
+                <label>Google search</label>
+            </value>
+            <value>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+                <label>Word of mouth</label>
+            </value>
+            <value>
+                <fullName>Online fundraising website (hosted by Givergy)</fullName>
+                <default>false</default>
+                <label>Online fundraising website (hosted by Givergy)</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Marketing email from Givergy</fullName>
+                <default>false</default>
+                <label>Marketing email from Givergy</label>
+            </value>
+            <value>
+                <fullName>Social media</fullName>
+                <default>false</default>
+                <label>Social media</label>
+            </value>
+            <value>
+                <fullName>In-person event</fullName>
+                <default>false</default>
+                <label>At a live fundraising event</label>
+            </value>
+            <value>
+                <fullName>An event hosted by Givergy</fullName>
+                <default>false</default>
+                <label>An in-person event hosted by Givergy</label>
+            </value>
+            <value>
+                <fullName>Current Givergy Client</fullName>
+                <default>false</default>
+                <label>Current Givergy Client</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

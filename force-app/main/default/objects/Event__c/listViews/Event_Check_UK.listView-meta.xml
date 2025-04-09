@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Check_UK</fullName>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Client__c</columns>
+    <columns>NAME</columns>
+    <columns>Event_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>7/1/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>lessThan</operation>
+        <value>12/31/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>UK</value>
+    </filters>
+    <label>Event Check - UK</label>
+</ListView>

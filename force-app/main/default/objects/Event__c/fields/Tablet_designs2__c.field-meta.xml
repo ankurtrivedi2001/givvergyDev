@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tablet_designs2__c</fullName>
+    <label>Tablet designs</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Received from client</fullName>
+                <default>false</default>
+                <label>Received from client</label>
+            </value>
+            <value>
+                <fullName>Sent to client</fullName>
+                <default>false</default>
+                <label>Sent to client</label>
+            </value>
+            <value>
+                <fullName>Client signed off</fullName>
+                <default>false</default>
+                <label>Client signed off</label>
+            </value>
+            <value>
+                <fullName>Not required</fullName>
+                <default>false</default>
+                <label>Not required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

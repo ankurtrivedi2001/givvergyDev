@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relationship_field__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Relationship field to use Event as target object in actions (clone event),,this is just here to establish event to event relationship only then action would list event_c object under target object options</description>
+    <label>Relationship field</label>
+    <referenceTo>Event__c</referenceTo>
+    <relationshipLabel>Events</relationshipLabel>
+    <relationshipName>Events</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

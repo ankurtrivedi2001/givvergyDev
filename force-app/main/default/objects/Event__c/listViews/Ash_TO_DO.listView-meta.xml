@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ash_TO_DO</fullName>
+    <columns>Event_Date__c</columns>
+    <columns>NAME</columns>
+    <columns>Client__c</columns>
+    <columns>X10_Commission_Event_del__c</columns>
+    <columns>Payment_collection__c</columns>
+    <columns>Auction_items__c</columns>
+    <columns>Remote_Support_Specialist__c</columns>
+    <columns>Event_Status__c</columns>
+    <columns>Stripe_Connect_set_up__c</columns>
+    <columns>Website_URL__c</columns>
+    <columns>Preauth__c</columns>
+    <columns>Tablet_designs__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>Account_manager__c</field>
+        <operation>equals</operation>
+        <value>Ashley Missen</value>
+    </filters>
+    <filters>
+        <field>Event_Status__c</field>
+        <operation>equals</operation>
+        <value>Cancelled,Postponed,Not Contacted,Contacted,Meeting Held,Copy Check Complete,Event Ready</value>
+    </filters>
+    <label>Ash - TO DO</label>
+</ListView>

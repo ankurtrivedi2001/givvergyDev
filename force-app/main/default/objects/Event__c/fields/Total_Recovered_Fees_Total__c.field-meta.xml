@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Recovered_Fees_Total__c</fullName>
+    <formula>Auction_payment_fee_recovered__c + Buy_now_payment_fee_recovered__c + Pledge_payment_fee_recovered__c + Ticket_Booking_Fee_Recovered__c + Ticketing_payment_fee_recovered__c + Total_Raffle_Fees_Recovered__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Recovered Fees (Formula)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

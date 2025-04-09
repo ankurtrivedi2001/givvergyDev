@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_credit_card_swipers__c</fullName>
+    <description>Number of credit card swipers required</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of credit card swipers required</inlineHelpText>
+    <label>No. of payment readers - sent w/ staff</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

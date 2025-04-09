@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iPads_Swipers_Readers__c</fullName>
+    <description>Number of iPads and corresponding swipers the client wishes to rent from Givergy. Note, all tablets include a swiper, so please indicate how many sets the client would like to rent.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of iPads and corresponding swipers the client wishes to rent from Givergy. Note, all tablets include a swiper, so please indicate how many sets the client would like to rent.</inlineHelpText>
+    <label>Rental iPads &amp; swipers/readers*</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

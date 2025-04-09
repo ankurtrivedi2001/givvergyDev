@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stripe_requirements_due_date__c</fullName>
+    <description>Date at which the additional Stripe requirements must be complete</description>
+    <inlineHelpText>Date at which the additional Stripe requirements must be complete</inlineHelpText>
+    <label>Stripe requirements due date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

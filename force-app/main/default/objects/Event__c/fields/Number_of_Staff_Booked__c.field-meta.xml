@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Staff_Booked__c</fullName>
+    <label>Staff Booked</label>
+    <summaryFilterItems>
+        <field>Staff__c.Role__c</field>
+        <operation>equals</operation>
+        <value>Event Manager, Event Support, Tech Manager, Tech Support, Remote Support, Training Manager, Mobile Event Manager</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Staff__c.Event__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

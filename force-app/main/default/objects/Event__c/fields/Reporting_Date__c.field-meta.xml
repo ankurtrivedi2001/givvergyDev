@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Date__c</fullName>
+    <formula>IF(
+
+  OR(
+
+    ISPICKVAL( Event_Type__c , &quot;Managed - Event&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Managed - Event With Auction Items&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Givergy Pro - Event&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Givergy Pro - Event With Auction Items&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Virtual - Online Event&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Virtual - Online Event With Auction Item&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Unlimited Add On&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Unlimited Add On - Pro Event&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Other&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Managed Lots&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Pro Lots&quot;),
+    ISPICKVAL( Event_Type__c , &quot;DIY Lots&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Unlimited Add On - Virtual Event&quot;),
+    /* Above are old values, leaving as it is for old opps, below are new values for opps */
+    ISPICKVAL( Event_Type__c , &quot;On Site - App Tablet Event&quot;),
+    ISPICKVAL( Event_Type__c , &quot;On Site - Mobile Event&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Givergy Virtual Event&quot;),
+    ISPICKVAL( Event_Type__c , &quot;Premium - Auction Items&quot;)
+  ),
+  Event_Date_New__c, 
+
+  IF(
+
+    OR(
+
+      ISPICKVAL( Event_Type__c , &quot;Managed - Website&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Managed - Website With Auction Items&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Pro - Online Campaign&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Pro - Online Campaign With Auction Items&quot;),
+      ISPICKVAL( Event_Type__c , &quot;DIY - Event&quot;),
+      ISPICKVAL( Event_Type__c , &quot;DIY - Event With Auction Items&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Unlimited Add On - Online Campaign&quot;),
+
+      ISPICKVAL( Event_Type__c , &quot;Online Campaign&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Subscription - Online Campaign&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Unlimited - Online Campaign&quot;)
+    ),
+    DATEVALUE(Event_Date__c),
+
+    IF(
+
+      OR(
+
+        ISPICKVAL( Event_Type__c , &quot;Pro - Annual Subscription&quot;),
+        ISPICKVAL( Event_Type__c , &quot;Givergy Unlimited Enterprise&quot;),
+
+        ISPICKVAL( Event_Type__c , &quot;Givergy Unlimited&quot;),
+        ISPICKVAL( Event_Type__c , &quot;Premium - Annual Subscription&quot;)
+      ),
+      Subscription_Start_Date__c,
+      NULL
+    )
+  )
+)</formula>
+    <label>Reporting Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_last_draw__c</fullName>
+    <description>Date the last GLI raffle, GLI jackpot raffle, prize draw takes place - syncs with CMS</description>
+    <inlineHelpText>Date the GLI raffle, GLI jackpot raffle, prize draw takes place</inlineHelpText>
+    <label>Date of last draw</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

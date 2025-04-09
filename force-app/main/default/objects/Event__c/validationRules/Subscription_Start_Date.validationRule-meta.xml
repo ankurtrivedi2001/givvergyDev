@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscription_Start_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISBLANK(Subscription_Start_Date__c),
+  OR(
+      ISPICKVAL( Event_Type__c , &quot;Enterprise Subscription&quot;),
+      ISPICKVAL( Event_Type__c , &quot;Subscription&quot;)
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Subscription_Start_Date__c</errorDisplayField>
+    <errorMessage>Please enter Subscription start date for event</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staffing_Agency_Event_Name</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Id = &apos;00e0O00000138MI&apos;,
+ISCHANGED(Name))</errorConditionFormula>
+    <errorMessage>Please do not amend the event name</errorMessage>
+</ValidationRule>

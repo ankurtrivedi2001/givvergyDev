@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reader_Purchase__c</fullName>
+    <label>Reader Purchase</label>
+    <summarizedField>QuoteLineItem.Quantity</summarizedField>
+    <summaryFilterItems>
+        <field>QuoteLineItem.Product_Category__c</field>
+        <operation>equals</operation>
+        <value>Reader Purchase</value>
+    </summaryFilterItems>
+    <summaryForeignKey>QuoteLineItem.QuoteId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

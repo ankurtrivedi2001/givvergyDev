@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Total_Costs__c</fullName>
+    <formula>EM_ES_Expenses_EX_TAXI__c +  EM_ES_Taxi__c + EM_ES_Wage__c + SA_Internet_Costs__c + SA_Logistical_Costs__c + SA_Other_Costs__c + SA_Cancellation_Charge__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SA - Total Costs</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Date_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(CONTAINS($User.ProfileId,&apos;00e0O000002EbGH&apos;),Event_Date_New__c &lt; TODAY(),
+				OR(Contract__r.Subscription_Start_Date__c &gt;  Event_Date_New__c , 
+          Contract__r.Subscription_End_Date__c &lt; Event_Date_New__c )
+			)</errorConditionFormula>
+    <errorMessage>This is past the end date of your subscription. Please contact your Client Account Manager.</errorMessage>
+</ValidationRule>

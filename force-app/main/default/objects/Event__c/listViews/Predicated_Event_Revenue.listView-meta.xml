@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Predicated_Event_Revenue</fullName>
+    <columns>Event_Date__c</columns>
+    <columns>Country__c</columns>
+    <columns>Total_items_listed__c</columns>
+    <columns>Predicted_Auction_Item_Profit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>4/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>lessThan</operation>
+        <value>3/31/2019 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA,AU,HK</value>
+    </filters>
+    <filters>
+        <field>Auction_items__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Predicated Event Revenue</label>
+</ListView>

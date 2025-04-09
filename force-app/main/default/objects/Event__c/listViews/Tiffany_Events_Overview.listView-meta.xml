@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tiffany_Events_Overview</fullName>
+    <columns>Event_Date__c</columns>
+    <columns>NAME</columns>
+    <columns>Client_Contact_Email__c</columns>
+    <columns>Event_Type__c</columns>
+    <columns>System_Set_Up__c</columns>
+    <columns>Ticketing__c</columns>
+    <columns>Checkin__c</columns>
+    <columns>Website__c</columns>
+    <columns>Bespoke_Totaliser__c</columns>
+    <columns>Payment_collection__c</columns>
+    <columns>Preauth__c</columns>
+    <columns>Auction_items__c</columns>
+    <columns>Remote_Support_Specialist__c</columns>
+    <columns>Number_of_Staff_Required__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>US,CA</value>
+    </filters>
+    <filters>
+        <field>Account_manager__c</field>
+        <operation>equals</operation>
+        <value>Tiffany Gianelloni</value>
+    </filters>
+    <filters>
+        <field>Event_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Cancelled</value>
+    </filters>
+    <label>Tiffany Events Overview</label>
+</ListView>

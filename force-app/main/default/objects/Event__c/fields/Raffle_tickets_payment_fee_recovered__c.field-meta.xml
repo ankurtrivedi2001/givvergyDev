@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raffle_tickets_payment_fee_recovered__c</fullName>
+    <description>Raffle tickets payment fee recovered (Raffle payment fee only)</description>
+    <inlineHelpText>Raffle tickets payment fee recovered (Raffle payment fee only)</inlineHelpText>
+    <label>OLD Prize Draw Fees Recovered</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

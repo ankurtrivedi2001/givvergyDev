@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generate_Client_Event_Summary</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Generate On-Site Staff Summary</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Event__c.Id}
+&amp;QueryId=[staff]a080O00001PuIVN,
+[room]a080O00001PuIY8,
+[assproduct]a080O00001PuIXn,
+[Equipment]a080O00001PuhkU,
+[AuctionItems]a080O00001Puhqi,
+[checkin]a080O00001Puhrj,
+[setup]a080O00001PuhsO,
+[packdown]a080O00001Puhso,
+[venue]a080O00001Puhst,
+[payment]a080O00001PuiEg
+&amp;OFN=Givergy+Event+Summary+-+{!Event__c.Name}
+&amp;TemplateGroup=Client Event Summary</url>
+</WebLink>

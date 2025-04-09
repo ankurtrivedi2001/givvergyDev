@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_renew__c</fullName>
+    <description>If checked, this subscription will renew automatically</description>
+    <inlineHelpText>If checked, this subscription will renew automatically</inlineHelpText>
+    <label>Auto renew</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Auto-Renewable</fullName>
+                <default>false</default>
+                <label>Auto-Renewable</label>
+            </value>
+            <value>
+                <fullName>Removed from contract</fullName>
+                <default>false</default>
+                <label>Removed from contract</label>
+            </value>
+            <value>
+                <fullName>Not clear to the client on subscription value or renewing</fullName>
+                <default>false</default>
+                <label>Not clear to the client on subscription value or renewing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

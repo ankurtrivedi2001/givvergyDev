@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_messages_to_be_sent_free_text_to__c</fullName>
+    <description>Free text field to enter details for any messages to be sent by event staff</description>
+    <inlineHelpText>Free text field to enter details for any messages to be sent by event staff</inlineHelpText>
+    <label>Additional custom messages to be sent*</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

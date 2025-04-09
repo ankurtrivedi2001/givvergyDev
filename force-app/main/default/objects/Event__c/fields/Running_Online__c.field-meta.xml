@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Running_Online__c</fullName>
+    <label>Running Online*</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Running Offline – Local Server</fullName>
+                <default>false</default>
+                <label>Running Offline – Local Server</label>
+            </value>
+            <value>
+                <fullName>Running Online – Local Server with hardwire connection</fullName>
+                <default>false</default>
+                <label>Running Online – Local Server with hardwire connection</label>
+            </value>
+            <value>
+                <fullName>Running Online – Local server with venue Wi-Fi</fullName>
+                <default>false</default>
+                <label>Running Online – Venue WiFi (Not Givergy custom)</label>
+            </value>
+            <value>
+                <fullName>Running Online – SSID</fullName>
+                <default>false</default>
+                <label>Running Online – Venue WiFi (Givergy SSID)</label>
+            </value>
+            <value>
+                <fullName>Running Online – 4G Kit with hardwire connection</fullName>
+                <default>false</default>
+                <label>Running Online – 4G Kit with hardwire</label>
+            </value>
+            <value>
+                <fullName>Running Online – 4G Kit</fullName>
+                <default>false</default>
+                <label>Running Online – 4G Kit SIM only</label>
+            </value>
+            <value>
+                <fullName>No WiFi Available - Use iPad Cellular</fullName>
+                <default>false</default>
+                <label>Running Online - No WiFi Available - Use iPad Cellular</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Error_if_contract_is_null</fullName>
+    <active>false</active>
+    <errorConditionFormula>(NOT(ISPICKVAL(CreatedBy.UserType , &quot;Standard&quot;))|| ISNULL(TEXT(CreatedBy.UserType)) || ISBLANK(TEXT(CreatedBy.UserType))) &amp;&amp; (ISNULL( Contract__c ) || ISBLANK(Contract__c))</errorConditionFormula>
+    <errorMessage>This is past the end date of your subscription. Please contact your Client Account Manager.</errorMessage>
+</ValidationRule>

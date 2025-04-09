@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Events_AG</fullName>
+    <columns>Event_Date__c</columns>
+    <columns>Client__c</columns>
+    <columns>NAME</columns>
+    <columns>Event_Type__c</columns>
+    <columns>Event_Status__c</columns>
+    <columns>System_Set_Up__c</columns>
+    <columns>AV__c</columns>
+    <columns>Staff_Confirmed__c</columns>
+    <columns>Website__c</columns>
+    <columns>Launch_date_and_time__c</columns>
+    <columns>Payment_collection__c</columns>
+    <columns>Checkin__c</columns>
+    <columns>EMS_event_link__c</columns>
+    <columns>Payment_notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>UK,US,CA,AU,HK</value>
+    </filters>
+    <filters>
+        <field>Account_manager__c</field>
+        <operation>contains</operation>
+        <value>Golberg</value>
+    </filters>
+    <filters>
+        <field>Event_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>My Events AG</label>
+</ListView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tablet_screensaver__c</fullName>
+    <label>Tablet screensaver</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client requested</fullName>
+                <default>false</default>
+                <label>Client requested</label>
+            </value>
+            <value>
+                <fullName>Received &amp; uploaded</fullName>
+                <default>false</default>
+                <label>Received &amp; uploaded</label>
+            </value>
+            <value>
+                <fullName>Client declined</fullName>
+                <default>false</default>
+                <label>Client declined</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
